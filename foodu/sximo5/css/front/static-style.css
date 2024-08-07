@@ -1,0 +1,416 @@
+.content-area {
+    text-align: center;
+}
+.banner-sec
+{
+    position: relative;
+}
+.outer-bg {
+        overflow: hidden;
+    background-color: #ececec;
+}
+.page-careers
+{
+    font-size: 12px;
+}
+.page-careers .table-header li
+{
+list-style: none;
+}
+
+.page-careers .job-details {
+    padding: 2em 0em;
+   
+}
+.job-details.accordion-section-content.collapse {
+    text-align: left;
+    padding: 30px;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+.job li .icon-sec h5 {
+    position:relative;
+    color: #F2871F;
+}    
+.job li .icon-sec h5:before {
+    content: "+";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    font-family: FontAwesome;
+    left:48px;
+    position:absolute;
+    top:0;
+ }
+ .carousel-inner.blog-sec
+ {
+    height:450px;
+}
+ .job li .icon-sec.icon-change h5:before {
+    content: "-";  /* this is your text. You can also use UTF-8 character codes as I do here */
+    font-family: FontAwesome;
+    left:48px;
+    position:absolute;
+    top:0;
+ }
+.mb-0 .fa
+{
+    display: none;
+}
+.page-careers h3.new-style.inner-title {
+    text-transform: uppercase;
+    color: #4b4b4b;
+    font-weight: normal;
+}
+.page-careers .form-group {
+    position: relative;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+}
+.page-careers .form-group input, .page-careers .form-group textarea {
+    display: block;
+    background: none;
+    padding: 2px 2px 1px;
+    font-size: 1rem;
+    border-width: 0;
+    xborder-color: transparent;
+    line-height: 1.9;
+    width: 100%;
+    color: transparent;
+    transition: all 0.28s ease;
+    box-shadow: none;
+    border-bottom: 1px solid #999999;
+}
+.page-careers .btn-orange:hover, .page-careers .btn-orange::after, .page-careers .btn-orange:focus, .btn-orange:visited {
+    background: #fff;
+    border: 1px solid #5aba47;
+    color: #5aba47;
+}
+.page-careers .form-group .control-label {
+    position: absolute;
+    top: 0px;
+    pointer-events: none;
+    padding-left: 2px;
+    z-index: 1;
+    color: #b3b3b3;
+    font-size: 1em;
+    font-weight: normal;
+    transition: all 0.28s ease;
+}
+.page-careers .form-group .bar::after {
+    right: 50%;
+}
+.page-careers .form-group .bar::before, .form-group .bar::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: -1px;
+    position: absolute;
+    background: #F68620;
+    transition: all 0.28s ease;
+    z-index: 2;
+}
+.page-careers .form-group {
+    position: relative;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+}
+.page-careers .form-group input {
+    height: 1.9rem;
+}
+.accordion-section .row li
+{
+    list-style: none;
+}
+.page-careers .middle-block {
+    xfloat: none;
+    margin: 0 auto;
+}
+.accordion {
+    xoverflow: hidden;
+}
+.page-careers .table-header {
+    margin: 1em 0 0 0;
+    padding: 6px 0px 2px;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 2px solid rgb(226, 226, 226);
+    font-size: 14px;
+    font-weight: 600;
+}
+.page-careers .job:nth-child(1) {
+    border-left: 0;
+    border-right: 0;
+}
+.page-careers .job {
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 0;
+    margin: 0;
+    border-right: 0;
+}
+.page-careers .job {
+    padding: .5em 0em;
+}
+.page-careers ul.table-header li, .accordion-section ul li {
+
+    xpadding: 0px;
+text-align: left;
+font-weight: normal;
+}
+.accordion-section > ul li {
+
+    line-height: 25px;
+    vertical-align: middle;
+
+}
+.page-careers .job li h5 {
+
+    font-size: 11px;
+    color: #585858;
+
+}
+.page-careers .job .visible-xs {
+
+    display: inline-block !important;
+
+}
+.page-careers .job li .icon-sec h5 
+{
+    color: #F68620;
+}
+.job .col-xs-12.col-md-2.col-sm-2.text-right {
+    text-align: right;
+}
+.page-careers h3.new-style {
+    text-align: left;
+    font-size: 1.2em;
+    color: #F2871F;
+}
+.maring-bottom-sec
+{
+    margin-top: 10px;
+}
+.container.container-maring-no-pad
+{
+   margin-top: 0px;
+
+background-color: #fff;
+
+padding-top: 30px;
+}
+.hero-text
+{
+    text-shadow: 0 0 2px rgba(0,0,0,2.2);
+position: absolute;
+bottom: 40px;
+text-align: center;
+width: 100%;
+color: #fff;
+font-weight: 100;
+}
+.team-blade {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+.static ul.social li img {
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+}
+.static ul.social li {
+    display: inline-block;
+    margin-right: .5em;
+}
+.static  span.orange-bar, .static  span.orange-bar {
+    background: #5aba47;
+    height: 3px;
+    width: 45px;
+    margin: 1em auto;
+    display: inline-block;
+}
+.title.title-our-story
+{
+color: #fc8019;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.team-member .col-md-3.col-sm-3.text-center {
+    list-style: none;
+    margin-bottom: 30px;
+}
+.team-blade {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+.person-name
+{
+    color: #fc8019;
+    font-size: 14px;
+}
+.static .col-md-4.col-sm-4.text-center {
+    margin-bottom:30px
+}
+.static .founders h3, .static .managers h3 {
+    color: #5aba47;
+    font-size: 16px;
+}
+.static {
+    float: left;
+    width: 100%;
+}
+.blog-sec .entry-title a {
+    color: #1a1a1a;
+}
+.post-inner-content {
+    padding:0px 30px 40px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    margin-bottom: 30px;
+    display: block;
+}
+.entry-header.page-header{
+margin: 30px 0 0px;
+}
+.entry-meta a {
+    font-size: 13px;
+    color: #6B6B6B;
+}
+.fa-calendar::before {
+    content: "\f073";
+}
+.entry-meta span {
+    margin-right: 10px;
+}
+.blog-sec ul.social li img {
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    text-align: left;
+    float: left;
+    border-top: 1px solid #ddd;
+}
+.blog-sec {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.blog-sec .btn.btn-default.read-more {
+    background-color: #f8be30;
+    color: #000;
+    border: 1px solid #f8be30;
+    margin-top:10px;
+}
+.post_info.clearfix .post-left ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+form#reply_blog{
+    margin-top:0px;
+}
+form#newVerification{
+    margin-top:15px;
+}
+.post_info.clearfix .post-right{font-size:16px;font-weight:500;}
+.posted-on .fa
+{
+    color: #6b6b6b;
+    border-color: 1px solid #6B6B6B;
+}
+ div.sharedaddy, .blog-item-wrap div.sharedaddy {
+    clear: inherit;
+    display: block;
+    float: right;
+}
+
+.blog-item-wrap a img{width: 100%;height: 250px;object-fit: cover;}
+
+.sd-content ul li {
+    display: inline-block;
+}
+.sd-content ul {
+    padding: 0 ;
+    margin: 0 0 .7em 0 ;
+    list-style: none ;
+}
+.well {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #DADADA;
+    overflow: hidden;
+    clear: both;
+}
+.es_widget_form_email {
+    font-weight: normal;
+}
+.widget.social-icons-widget
+{
+margin-top: 40px;
+}
+ul.app-links li {
+    border: 0;
+    display: inline-block;
+    max-width: 142px;
+}
+.app-links
+{
+    margin:0px;
+    padding:0px;
+}
+.blog-sec  #secondary .widget:last-child {
+    margin-bottom: 0px;
+}
+.blog-sec  .input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+  .main-content-area .widget > h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    margin-top: 0;
+    color: #585858;
+}
+.main-content-area   #secondary .widget {
+    margin-bottom: 50px;
+    color: #C1C0C0;
+    overflow: hidden;
+}
+.widget ul li {
+    list-style: none;
+    border-bottom: 1px solid #F2F2F2;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.social-icons-widget ul li {
+    display: inline-block;
+    margin: 0 6px 10px 0;
+        margin-bottom: 10px;
+}
+.es_button .es_textbox_button.es_submit_button.btn.btn-default {
+    background-color: #4bfe00;
+    border-color: #4bfe00;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.widget select {
+    max-width: 100%;
+height: 31px;
+width: 60%;
+}
+.app-links img
+{
+    height: auto;
+max-width: 100%;
+}
+
+
+.container_970{width: 970px;max-width: 100%;margin:auto;}
+.banner-sec .banner-img {width: 100%;max-height: 500px;object-fit: cover;}
+.circle-block img.img-circle {height: 180px;}
+ul.social {padding: 0px;}
+.error_page {padding: 40px 0px;text-align: center;}
+.error_page .text-hero {font-size: 160px;}
+.error_page h1 {font-size: 51.98102000000001px;}
+.error_page .btn-ghost.btn-white {background-color: #e04f67;color: #ffffff;}
+.terms-section p {word-break: break-word;}

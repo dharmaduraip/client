@@ -1,0 +1,67 @@
+.bg-aqua{
+  background-color: #8ccede54 !important;
+}
+.bg-green{
+  background-color: #a9edca85 !important;
+}
+.bg-yellow{
+  background-color: #fad899b8 !important;
+}
+.bg-red{
+  background-color:#efa4aa8a !important;
+}
+.bg-purple{
+  background-color: #b6b2ffa1 !important;
+}
+.bg-orange{
+  background-color: #f5b78187 !important;
+}
+.bg-gray{
+  background-color: #d5b9b97a!important;
+}
+.bg-skyblue{
+  background-color: #adccd28a!important;
+}
+.text-aqua{
+  color: #0686a5!important;
+}
+.text-green{
+  color: green!important;
+}
+.text-yellow{
+  color: #ffb03f!important
+}
+.text-red{
+  color: #e64c4c!important;
+}
+.text-purple{
+  color: #555690!important;
+}
+.text-orange{
+  color: #e46720!important;
+}
+.text-gray{
+  color: #414141!important;
+}
+.text-skyblue{
+  color: #43acbf!important;
+}
+.content_header_new .card-body h4{
+  color: black!important;
+  font-weight: bold;
+}
+.content_header_new .card-body p.text-white{
+  color: #2d303c!important;
+}
+.bg-border-red{
+  border-top: 2px solid red;
+}
+.bg-border-darkpurple{
+  border-top: 2px solid #331E38;
+}
+.bg-border-power{
+  border-top: 2px solid #706993;
+}
+.bg-border-green{
+  border-top: 2px solid green;
+}

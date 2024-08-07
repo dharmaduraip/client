@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|\.svg|\.csv|\.xlsx|\.jpeg|\.mp4|\.pdf|\.sql|\.json|\.ttf|robots\.txt)$ [NC]
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^(admin_assets|admin_assets_rtl|adv_upload|class|content|css|excel|files|fonts|images|installer1|js|subtitles|vendor|video)/(.*)$ public/$1/$2/$3/$4/$5/$6/$7/$8/$9 [L,NC]
+  
+    <Files .env>
+    order allow,deny
+    Deny from all
+    </Files>
+</IfModule>

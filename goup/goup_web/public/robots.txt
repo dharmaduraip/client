@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:/login 
+Disallow:/shop/login
+Disallow:/provider/login
+Disallow:/admin/login

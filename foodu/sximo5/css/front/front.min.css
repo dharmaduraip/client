@@ -1,0 +1,170 @@
+.lottie-parent {
+    width: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background:#fff url("{!! asset('uploads/images/grozo_loader.gif') !!}") no-repeat center center
+}
+
+.form-signup select[disabled] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    cursor: default;
+    color: unset
+}
+
+.chosen-container-single .chosen-single {
+    font-weight: 400;
+    border: unset!important;
+    background: unset;
+    background-color: unset;
+    box-shadow: unset!important
+}
+
+.chosen-container.chosen-container-single {
+    width: 324px;
+    background-color: transparent;
+    line-height: normal;
+    border: none;
+    outline: 0;
+    height: 63px;
+    width: 100%;
+    font-size: 17px;
+    margin: 0;
+    padding: 0 20px;
+    padding-top: 15px;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 400
+}
+
+.chosen-container .chosen-drop {
+    border: none
+}
+
+.chosen-container-active.chosen-with-drop .chosen-single {
+    background-image: unset
+}
+
+.chosen-container-single .chosen-single span {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: -8px;
+    color: #6f6f71
+}
+
+li.result-selected {
+    background-image: unset;
+    font-size: 16px;
+    color: #6f6f71
+}
+
+.chosen-container .chosen-results {
+    color: #6f6f71;
+    font-size: 14px
+}
+
+
+/* .new homepage */
+
+.header-space {
+    padding-top: 55px;
+    padding-left: 68px;
+    padding-right: 53px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 488px;
+}
+
+.navcolor {
+    padding: 0;
+}
+
+.image2 {
+    padding-top: 80px;
+}
+
+.rightbanner1 img,
+.rightbanner2 img {
+    width: 100%;
+    height: auto;
+}
+
+.headercolum {
+    background-image: url(./../../../uploads/zatka.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 488px;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:768px) {
+    .navbar-brand {
+        width: 120px;
+        height: 70px;
+        display: block
+    }
+}
+
+#animation-container .animation {
+    width: 100%!important
+}
+
+@media (max-width:768px) {
+    .lottie-parent {
+        width: 180px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0
+    }
+    .header-colum2-nopad {
+        margin-top: 60px;
+        padding: 0
+    }
+    .has-success .form-control {
+        padding-right: 183px;
+    }
+}
+
+
+/* .new homepage */
+
+.header-space {
+    padding-top: 10px;
+    padding-left: 135px;
+    padding-right: 53px;
+}
+
+.col1 h3 {
+    padding-top: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    color: #fff
+}

@@ -1,0 +1,3 @@
+ALTER TABLE `plans` ADD `days` BIGINT NOT NULL DEFAULT '0' AFTER `candidate_cv_view_limitation`;
+
+ALTER TABLE `user_plans` ADD `buy_date` DATE NULL DEFAULT NULL AFTER `candidate_cv_view_limitation`, ADD `expire_date` DATE NULL DEFAULT NULL AFTER `buy_date`;

@@ -1,0 +1,486 @@
+/* ------------------------------------------------------------------------------
+ *
+ *  # Components
+ *
+ *  Common less file with imports of plugins and pages
+ *
+ *  Version: 1.3
+ *  Latest update: Feb 5, 2016
+ *
+ * ---------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------
+ *
+ *  # Global less file
+ *
+ *  Common less file with imports of plugins and pages
+ *
+ *  Version: 1.0
+ *  Latest update: Feb 5, 2016
+ *
+ * ---------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------
+*
+*  # Utilites
+*
+*  Additional animations, transitions, transforms and other utilities
+*
+*  Version: 1.0
+*  Latest update: Mar 10, 2016
+*
+* ---------------------------------------------------------------------------- */
+.media-body .uploader span.action.btn.btn-default {
+    background-color: var(--primary);
+    color: white;
+}
+
+.no-transitions * {
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+.btn,
+.navbar-link,
+.nav-tabs > li > a,
+.nav-tabs > li > a:after,
+.nav-pills > li > a,
+.nav li > a > .label,
+.nav li > a > .badge,
+.breadcrumb > li > a,
+.breadcrumb-elements > li > a,
+.tt-suggestion,
+.tokenfield .token,
+.selectboxit-btn,
+.bootstrap-select .btn-default,
+.select2-results__option,
+.select2-selection__choice__remove,
+.dropdown-menu > li > a,
+.dropdown-menu > li > label,
+.wizard .actions a,
+.checker span:after,
+.choice span:after,
+.selectboxit-option-anchor,
+.dt-autofill-list ul li,
+.dt-autofill-button .btn,
+.dataTable .select-checkbox:before,
+.dataTable .select-checkbox:after,
+.pika-button,
+.sp-input,
+.navbar-nav > li > a,
+.dropdown-content-footer a,
+.icons-list > li > a,
+.picker__nav--prev,
+.picker__nav--next,
+.multiselect.btn-default,
+.list-group-item,
+.pagination > li > a,
+.pagination > li > span,
+.pager > li > a,
+.pager > li > span,
+.datepicker-dropdown .day,
+a.label,
+a.badge,
+.ui-datepicker-buttonpane > button,
+.ui-button,
+.ui-menu-item,
+.ui-selectmenu-button,
+.ui-datepicker a,
+.media-link,
+.menu-list li > a,
+.plupload_file_action > a,
+.dataTables_paginate .paginate_button,
+.dataTables_filter input,
+.dt-button,
+.picker__list-item,
+.picker__day,
+.picker__footer,
+.sp-replacer,
+.sp-cancel,
+.sp-choose,
+.sp-palette-toggle,
+.daterangepicker td,
+.daterangepicker th,
+.noUi-handle,
+.fc-button,
+.plupload_button,
+.picker__footer button,
+.picker__list button,
+.AnyTime-btn,
+.plupload_filelist li,
+.password-indicator-group.input-group-addon,
+.password-indicator-label-absolute,
+.select2-selection--single:not([class*=bg-]),
+.select2-selection--multiple:not([class*=bg-]) .select2-selection__choice,
+.bootstrap-select.btn-group .dropdown-menu > li > a .check-mark {
+  -webkit-transition: all ease-in-out 0.15s;
+  -o-transition: all ease-in-out 0.15s;
+  transition: all ease-in-out 0.15s;
+}
+.close,
+.tag [data-role="remove"] {
+  -webkit-transition: opacity ease-in-out 0.15s;
+  -o-transition: opacity ease-in-out 0.15s;
+  transition: opacity ease-in-out 0.15s;
+}
+.checker span {
+  -webkit-transition: border-color ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+}
+.table tr,
+.table th,
+.table td,
+.htContextMenu td,
+.ranges ul li {
+  -webkit-transition: background-color ease-in-out 0.15s;
+  -o-transition: background-color ease-in-out 0.15s;
+  transition: background-color ease-in-out 0.15s;
+}
+/* ------------------------------------------------------------------------------
+*
+*  # Pick-a-date - Picker base
+*
+*  The mobile-friendly, responsive, and lightweight jQuery date & time input picker
+*
+*  Version: 1.2
+*  Latest update: Jul 5, 2016
+*
+* ---------------------------------------------------------------------------- */
+.picker {
+  width: 100%;
+  text-align: left;
+  position: absolute;
+  top: 100%;
+  margin-top: -1px;
+  z-index: 990;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.picker__input {
+  cursor: default;
+}
+.picker__holder {
+  width: 100%;
+  overflow-y: auto;
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  max-width: 290px;
+  max-height: 0;
+  outline: 0;
+  -webkit-overflow-scrolling: touch;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.picker--opened .picker__holder {
+  max-height: 480px;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  display: block;
+}
+/* ------------------------------------------------------------------------------
+*
+*  # Pick-a-date - Date picker
+*
+*  The mobile-friendly, responsive, and lightweight jQuery date & time input picker
+*
+*  Version: 1.1
+*  Latest update: Mar 10, 2016
+*
+* ---------------------------------------------------------------------------- */
+.picker__box {
+  padding: 14px;
+}
+.picker__header {
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  line-height: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.picker__month,
+.picker__year {
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.picker__year {
+  color: #999999;
+  font-size: 12px;
+  font-weight: normal;
+}
+.picker__select--month,
+.picker__select--year {
+  border-color: #ddd;
+  height: 32px;
+  font-size: 13px;
+  line-height: 1.6666667;
+  margin-left: 5px;
+  margin-right: 5px;
+  outline: 0;
+}
+.picker__select--month {
+  width: 35%;
+}
+.picker__select--year {
+  width: 22.5%;
+}
+.picker__nav--prev,
+.picker__nav--next {
+  position: absolute;
+  padding: 8px;
+  top: 50%;
+  margin-top: -16px;
+  border-radius: 2px;
+  line-height: 1;
+}
+.picker__nav--prev:before,
+.picker__nav--next:before {
+  font-family: 'icomoon';
+  display: block;
+  font-size: 16px;
+  width: 16px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.picker__nav--prev:hover,
+.picker__nav--next:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.picker__nav--prev {
+  left: 0;
+}
+.picker__nav--prev:before {
+  content: '\e9c8';
+}
+.picker__nav--next {
+  right: 0;
+}
+.picker__nav--next:before {
+  content: '\e9cb';
+}
+.picker__nav--disabled,
+.picker__nav--disabled:hover,
+.picker__nav--disabled:before,
+.picker__nav--disabled:before:hover {
+  cursor: default;
+  background: none;
+  border-right-color: #f5f5f5;
+  border-left-color: #f5f5f5;
+}
+.picker__table {
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  font-size: inherit;
+  width: 100%;
+  margin-bottom: 14px;
+}
+.picker__table td {
+  margin: 0;
+  padding: 0;
+}
+.picker__weekday {
+  width: 14.285714286%;
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 14px;
+  color: #999999;
+  font-weight: 400;
+}
+.picker__day {
+  padding: 7px;
+}
+.picker__day--today {
+  position: relative;
+  background-color: #f5f5f5;
+}
+.picker__day--today:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 0;
+  height: 0;
+  border-top: 6px solid #26A69A;
+  border-left: 6px solid transparent;
+}
+.picker__day--outfocus {
+  color: #ccc;
+}
+.picker__day--infocus:hover,
+.picker__day--outfocus:hover {
+  cursor: pointer;
+  color: #333333;
+  background-color: #f5f5f5;
+}
+.picker__day--highlighted:before {
+  border-top-color: #fff;
+}
+.picker__day--highlighted,
+.picker__day--selected {
+  border-radius: 3px;
+}
+.picker__day--highlighted,
+.picker__day--highlighted:hover,
+.picker--focused .picker__day--highlighted {
+  cursor: pointer;
+  color: #fff;
+  background-color: #26A69A;
+}
+.picker__day--selected,
+.picker__day--selected:hover,
+.picker--focused .picker__day--selected {
+  background-color: #26A69A;
+  color: #fff;
+}
+.picker__day--disabled,
+.picker__day--disabled:hover {
+  background: #fafafa;
+  color: #999999;
+  cursor: default;
+}
+.picker__day--disabled:before {
+  border-top-color: #999;
+}
+.picker__day--highlighted .picker__day--disabled,
+.picker__day--highlighted .picker__day--disabled:hover {
+  background-color: #bbbbbb;
+}
+.picker__footer {
+  text-align: center;
+}
+.picker__footer button {
+  border: 0;
+  background: #fff;
+  padding: 6px 11px;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+}
+.picker__footer button:hover,
+.picker__footer button:focus {
+  outline: 0;
+  background-color: #f5f5f5;
+}
+.picker__footer button:before {
+  height: 0;
+}
+.picker__button--today:before {
+  content: '';
+  margin-right: 5px;
+  position: relative;
+  display: inline-block;
+  top: -1px;
+  width: 0;
+  border-top: 6px solid #2196F3;
+  border-left: 6px solid transparent;
+}
+.picker__button--close:before {
+  content: '\D7';
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+  top: 1px;
+  line-height: 1;
+  font-size: 16px;
+}
+.picker__button--clear:before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  width: 8px;
+  margin-right: 5px;
+  border-top: 2px solid #F44336;
+}
+/* ------------------------------------------------------------------------------
+*
+*  # Pick-a-date - Time picker
+*
+*  The mobile-friendly, responsive, and lightweight jQuery date & time input picker
+*
+*  Version: 1.1
+*  Latest update: Mar 10, 2016
+*
+* ---------------------------------------------------------------------------- */
+.picker--time {
+  min-width: 256px;
+  max-width: 320px;
+}
+.picker--time .picker__box {
+  padding: 0;
+}
+.picker__list {
+  list-style: none;
+  padding: 7px 0;
+  margin: 0;
+  max-height: 100px;
+  overflow-y: auto;
+}
+.picker__list-item {
+  position: relative;
+  padding: 7px 12px;
+}
+.picker__list-item:hover,
+.picker__list-item:focus {
+  cursor: pointer;
+  background-color: #f5f5f5;
+  z-index: 10;
+}
+.picker--time .picker__button--clear {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 6px 11px;
+  background-color: #fcfcfc;
+  margin-top: 1px;
+  outline: 0;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+  text-align: center;
+  margin-bottom: -7px;
+  margin-top: 7px;
+}
+.picker--time .picker__button--clear:hover,
+.picker--time .picker__button--clear:focus {
+  background-color: #f5f5f5;
+}
+.picker__list-item--highlighted {
+  z-index: 10;
+}
+.picker__list-item--highlighted,
+.picker__list-item--highlighted:hover,
+.picker--focused .picker__list-item--highlighted {
+  cursor: pointer;
+  color: #fff;
+  background-color: #26A69A;
+}
+.picker__list-item--selected,
+.picker__list-item--selected:hover,
+.picker--focused .picker__list-item--selected {
+  background-color: #26A69A;
+  color: #fff;
+  z-index: 10;
+}
+.picker__list-item--disabled,
+.picker__list-item--disabled:hover,
+.picker--focused .picker__list-item--disabled {
+  background-color: #fafafa;
+  color: #999999;
+  cursor: not-allowed;
+  z-index: auto;
+}

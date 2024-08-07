@@ -1,0 +1,745 @@
+.w-5{
+    width: 20px;
+}
+.h-5{
+    height: 20px;    
+}
+.info-box .content .info p{
+    font-size: 12px;
+}
+.pace-done .navigation.spc-cls{
+    max-width: 250px;
+    flex: 0 0 250px;
+    max-height: calc(100vh - 68px);
+    overflow: auto;
+}
+.bg-sidemenu{
+    background-color: #2f4050!important;
+}
+.pace-done.minimize .navigation.spc-cls{
+    max-width: 0px;
+    flex: 0 0 0px;
+}
+.admin-navbar nav.nav-bar img.backlogo{
+    width: 50px;
+}
+.font-meter{
+    font-size: 16px!important;
+}
+.font-mob{
+    font-size: 18px!important;
+}
+.admin-navbar nav.nav-bar .nav-item .nav-link span{
+    color: #999c9e;
+}
+.admin-navbar nav.nav-bar .nav-item .nav-link i.fa,.admin-navbar nav.nav-bar .nav-item .nav-link i {
+    color: #1ab394;
+}
+.dropdown-menu i{
+    color: #1ab394;
+}
+.admin-navbar nav.nav-bar .nav-item .dropdown-menu{
+    left: -17px!important;
+}
+.admin-navbar nav.nav-bar .nav-item .dropdown-item:hover{
+    background-color: #eaeaea;
+}
+.admin-navbar nav.nav-bar .dropdown-toggle::after{
+    color: black;
+}
+.admin-navbar nav.nav-bar .nav-item.dropdown.open .dropdown-toggle::after{
+    transform: rotate(0deg);
+    transition: 0.1s;
+}
+.admin-navbar nav.nav-bar .nav-item.dropdown.open.show .dropdown-toggle::after{
+    transform: rotate(180deg);
+    transition: 0.1s;
+}
+.admin-navbar nav.nav-bar .nav-item{
+    position: relative;
+    z-index: 7px;
+}
+.admin-navbar nav.nav-bar .nav-item span.label-notify, .label-notify{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, red, #ffd3d3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -9px;
+    right: -12px;
+    z-index: 9px;
+}
+.set-height{
+    height: calc(100vh - 68px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.palegreencolorbg{
+    background-color: #00abbc;
+}
+.palebluecolorbg{
+    background-color: #00bc8c;
+}
+.goldbg{
+    background-color: #f89a14;
+}
+.redbg{
+    background-color: #ef6f6c;
+}
+.margin_10.animated .no-radius{
+    border-radius: 5px;
+}
+.panel-body .square_box span{
+    font-size: 12px;
+}
+.square_box .number{
+    font-size: 30px;
+    font-weight: 700;
+}
+.panel-body.squarebox h4{
+    font-size: 14px;
+}
+.text-white{
+    color: #fff;
+}
+.border-custom{
+    border: 1px solid #ddd;
+}
+.label {
+  background-color: #d1dade;
+  color: #5e5e5e;
+  font-size: 10px;
+  font-weight: 500 !important; 
+  padding: 3px 8px;
+  text-shadow: none;
+  text-align: center;
+  border-radius:0;
+  -moz-border-radius:0;
+}
+.badge {
+  background-color: #d1dade;
+  color: #5e5e5e;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-shadow: none;
+}
+.label-primary,
+.badge-primary {
+  background-color: #1ab394;
+  color: #FFFFFF;
+}
+.label-success,
+.badge-success {
+  background-color: #1c84c6;
+  color: #FFFFFF;
+}
+.label-warning,
+.badge-warning {
+  background-color: #f8ac59;
+  color: #FFFFFF;
+}
+.label-warning-light,
+.badge-warning-light {
+  background-color: #f8ac59;
+  color: #ffffff;
+}
+.label-danger,
+.badge-danger {
+  background-color: #ed5565;
+  color: #FFFFFF;
+}
+.label-info,
+.badge-info {
+  background-color: #23c6c8;
+  color: #FFFFFF;
+}
+.label-inverse,
+.badge-inverse {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+.label-white,
+.badge-white {
+  background-color: #FFFFFF;
+  color: #5E5E5E;
+}
+.label-white,
+.badge-disable {
+  background-color: #2A2E36;
+  color: #8B91A0;
+}
+.label-fail{
+    background-color: #ed5565;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 3px 6px;
+}
+.status-info{
+    background-color: #23c6c8;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 3px 3px;
+}
+.status-acc{
+    background-color: #1c84c6;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 3px 3px;
+}
+.table thead tr th.status{
+    width: 105px;
+}
+.table tbody tr td .btn-mis{
+    color: white!important;
+}
+.table tbody tr td a{
+    color: #06c!important;
+}
+#AbserveTable .table tbody tr td a{
+    color: white!important;
+}
+.page-header small ,.small-title{
+    font-size: 10px;
+    color: #999;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+.btn-success {
+    background-color: #1c84c6!important;
+    border-color: #1c84c6!important;
+    color: #FFFFFF;
+}
+.btn-danger {
+    background-color: #FF3333!important;
+    border-color: #DF0000!important;
+    color: #FFFFFF;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active{
+    background-color: #293846;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active a{
+    color: #fff;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active a span.iconic > i{
+    color: #19aa8d;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active .sidebar-submenu a span.iconic > i{
+    color: #a7b1c2;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active .sidebar-submenu a{
+    color: #a7b1c2;
+    padding-left: 35px;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active .sidebar-submenu ul li > a.active{
+    background-color: #293846;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active .sidebar-submenu a.active span.iconic > i,.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active .sidebar-submenu a.active span.iconic{
+    color: #fff;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active .sidebar-submenu ul li .sidebar-submenu ul li a{
+    padding-left: 65px;
+}
+.sidebar .sidebar-content .sidebar-menu ul li.sidebar-dropdown.active .sidebar-submenu ul li .sidebar-submenu ul li a.active{
+    color: #fff;
+}
+.button-chng a{
+    border: 1px solid #cfcfcf;
+    padding: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.button-chng i,#tips i,.button-chng .text-success ,.button-chng .text-success i{
+    color: #222!important;
+}
+.button-chng button, #tips{
+    border: 1px solid #cfcfcf!important;
+    padding: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.button-chng #searchpop{
+    background-color: #1c84c6!important;
+    border-color: #1c84c6!important;
+    color: #FFFFFF;
+}
+.button-chng #searchpop i{
+    color: #fff!important;
+}
+.sbox-content .white_bg{
+    border: 1px solid #ddd;
+    background-color: transparent;
+}
+.tips.btn-primary{
+    background-color: #364150;
+    border-color: #364150;
+}
+.tips .icon-delicious{
+    color: #fff;
+}
+.for-icon .tips i.fa{
+    color: #fff;
+}
+.for-icon .tips.btn.btn-xs.btn-primary:hover{
+    background-color: #18a689;
+    border-color: #18a689;
+    color: #FFFFFF;
+}
+.for-icon a#del{
+    background-color: #FF3333!important;
+    border-color: #FF3333!important;
+    color: #FFFFFF;
+}
+.table-container thead th{
+    background-color: #EFEFEF !important;
+}
+.box-row .restaurant_block{
+    position: relative;
+    border: 1px solid lightgrey;
+    padding: 12px;
+    box-shadow: 0px 0px 4px #b3b3b3;
+    height: 100%;
+}
+.box-row .restaurant_hide_icon{
+    position: absolute;
+    right: 0;
+    writing-mode: vertical-rl;
+    cursor: pointer;
+    user-select: none;
+}
+.box-row .restaurant_hide_icon i{
+    font-size: 4px;
+    font-weight: 700;
+}
+.box-row{
+    width: 170px;
+    margin: 6px 6px;
+}
+.box-row .rest_name_link{
+    color: #333;
+    padding: 10px 0px;
+    word-break: break-word;
+}
+.box-row .restaurant_hide_icon_block {
+    width: 100px;
+    position: absolute;
+    top: 8px;
+    right: 22px;
+    background-color: #eee;
+    box-shadow: 1px 1px 4px;
+    padding: 3px 9px;
+    border-radius: 2px;
+    display: none;
+}
+.box-row .restaurant_hide_icon_block.active{
+    display: block;
+}
+.box-row .restaurant_hide_icon_block:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    position: absolute;
+    top: 8px;
+    right: -10px;
+    background-color: #eee;
+    box-shadow: 1px 1px 4px;
+}
+.box-row .restaurant_block .star_rat span i,.box-row .restaurant_block .star_rat span{
+    font-size: 12px;
+}
+.restaurant_hide_icon_block a{
+    color: #333;
+}
+.w-300{
+    width: 300px;
+}
+.btn-green {
+    background-color: #23c6c8;
+    border-color: #23c6c8;
+    color: #FFFFFF!important;
+}
+.btn-green:hover{
+    color: #FFFFFF!important;
+}
+.btn-black {
+    background-color: #364150;
+    border-color: #364150;
+    color: #FFFFFF!important;
+}
+.btn-black:hover{
+    color: #FFFFFF!important;
+}
+.bg-trans{
+    background-color: transparent;
+}
+.bg-lightgrey{
+    background-color: #eee;
+}
+.border-tap{
+    border: 1px solid #ddd;
+}
+.edit-fooditem .breadcrumb .breadcrumb-item li,.edit-fooditem .breadcrumb .breadcrumb-item a{
+    color:  #333;
+}   
+.edit-fooditem .breadcrumb .breadcrumb-item a:hover{
+    color:  #333;
+    text-decoration: underline;
+} 
+.btn-lightgrey{
+    background-color: #747373;
+    border-color: #747373;
+    color: #FFFFFF!important;
+}
+.for-theader .table thead th{
+    background-color: #eee;
+}
+.table-given table.dataTable td,.table-given table.dataTable th{
+    padding: 10px;
+}
+.edit-fooditem .head-table .sbox{
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.edit-fooditem .head-table .sbox .sbox-title{
+    border-width: 0px;
+    background-color: #364150;
+    color: #fff;
+    padding: 6px 15px;
+    margin-bottom: 10px;
+}
+.edit-fooditem .head-table .sbox .sbox-title h4 i{
+    font-size: 16px;
+}
+.label-info, .badge-info {
+    background-color: #23c6c8;
+    color: #FFFFFF;
+    padding: 2px;
+}
+.form-group .restime_box {
+    display: flex;
+    position: relative;
+}
+.form-group .restime_box i{
+    line-height: 20px;
+}
+.sbox-title {
+    
+    border-width: 0px;
+    background-color: #364150;
+    color: #fff;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ddd;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0px 0;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 14px 15px 7px;
+    height: 48px;
+}
+.sbox-title h5 {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+}
+.sbox-title h5{
+    color: #fff;
+}
+.sbox-tools {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+.sbox-title a.tips.btn.btn-xs.btn-white {
+    background: #5bc0de;
+    color: #fff;
+    float: left;
+    padding: 5px;
+    border: 1px solid white;
+    margin-top: -2px;
+}
+.sbox-tools a.btn.btn-xs:last-child {
+    display: none !important;
+}
+#dailyreportSearch{
+    display: flex!important;    
+    justify-content: flex-end!important;
+}
+.box-border{
+    border: solid 1px #ddd;
+    background: #fff;
+}
+
+div.sidebar-submenu ul li.sub-dropdown > a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f105";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background: 0 0;
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    transition: transform 0.3s ease;
+}
+div.sidebar-submenu ul li.sub-dropdown.select > a:after {
+    transform: rotate(90deg);
+    right: 15px;
+}
+
+.sidebar-dropdown.active div.sidebar-submenu ul li.sub-dropdown div.sidebar-submenu {
+    display: none!important;
+}
+.sidebar-dropdown.active div.sidebar-submenu ul li.sub-dropdown.select div.sidebar-submenu {
+    display: block!important;
+}
+.sidebar-dropdown.active div.sidebar-submenu ul li.sub-dropdown.select > a {
+    background-color: #293846;
+}
+
+#datepairExample .form-group input[type="text"] {
+    width: 145px;
+}
+
+.restaurants_timing{
+    display:flex;
+    flex-wrap: wrap;
+}
+.restaurants_timing_box{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position:absolute;
+    z-index: 9999;
+    top: 31px;
+    left: 0px;
+
+}
+.fieldset_border fieldset legend{
+    border-bottom: 1px solid #e5e5e5 !important;
+    background-color: white;
+    font-size: 16px;
+    width: 100%;
+    box-shadow: none;
+}
+.fieldset_border fieldset{
+    box-shadow: none;
+}
+.fieldset_border .control-label{
+    font-weight: 700 !important;
+}
+.fieldset_border fieldset > h6{
+    border-bottom: 1px solid #02021a1c;
+}
+.breadcrumb > li a{
+    color: inherit; 
+}
+.breadcrumb > li a:hover{
+    text-decoration: underline;
+}
+.select_service > li.active > a{
+    background: #1ab394;
+    border-color: #1ab394 #1ab394 rgba(0, 0, 0, 0);
+    border-bottom: #1ab394;
+    border-image: none;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    cursor: default;
+    padding: 4px;
+    padding-left: 17px
+}
+.dd3-handle{
+    border: 1px solid #364150;
+    background: #364150;
+}
+
+
+
+#orderModal ul.nav.nav-tabs.center_align{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.table-top table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before, 
+.table-top table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
+    top: unset;
+    left: 5px;
+    height: 14px;
+    width: 14px;
+    display: block;
+    position: absolute;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 14px;
+    content: '+';
+    background-color: #31b131;
+}
+
+.nav-tabs > li.active{
+    background: #1ab394;
+}
+.nav-tabs > li.active > a{
+    font-weight: 600;
+    color: #ffffff;
+    cursor: default;
+}
+.tab-selection{
+    background-color: #e6e6e6;
+}
+.tab-selection a{
+    color: #a7b5c2;
+}
+#orderModal ul.nav.nav-tabs.center_align li{
+    padding: 10px;
+}
+.panel-group{
+    width: 100%;
+    margin-bottom: 20px
+}
+.panel.panel-default{
+    background: none !important;
+    border-color: #eee !important;
+}
+.panel-group .panel{
+    margin-bottom: 0;
+    overflow: hidden;
+    border-radius: 4px
+}
+.panel-default > .panel-heading{
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.panel-group .panel-heading{
+    border-bottom: 0px;
+}
+.panel-heading{
+    padding: 10px 15px;
+}
+.panel-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.panel-title > a{
+    color: inherit;
+    font-weight: bold;
+}
+.panel-group .panel-heading + .panel-collapse .panel-body{
+    border-top: 1px solid #ddd;
+}
+.panel-body{
+    padding: 15px;
+}
+table.table thead th{
+    background: #EFEFEF !important;
+    padding: 10px !important;
+}
+.panel-footer{
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.pull-right{
+    float: right!important;
+}
+.media:first-child{
+    margin-top: 0;
+}
+.media, .media-body{
+    overflow: hidden;
+    zoom: 1;
+}
+
+.media, .media .media{
+    margin-top: 15px;
+}
+.media > .pull-right{
+    margin-left: 10px;
+}
+.media-heading{
+    margin: 0 0 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px){
+    .my-acc{
+        display: none;  
+    }
+    .pace-done .navigation.spc-cls {
+        max-width: 0px;
+        flex: 0 0 0px;
+        z-index: 999;
+    }
+}
+@media screen and (max-width: 575px){
+    .w-300{
+        width: 280px;
+    }
+    .word-brk{
+        word-break: break-all;
+    }
+    .restaurants_timing_box select{
+        width: 80px;
+    }
+    ol#olAllContent{
+        column-count: 1!important;
+        -webkit-column-count: 1!important;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .admin-navbar nav.nav-bar .nav-item .dropdown-menu{
+        left: -45px!important;
+    }
+}
+@media screen and (max-width: 930px){
+    .restaurants_timing_box select{
+        width: 80px;
+    }
+}
+
